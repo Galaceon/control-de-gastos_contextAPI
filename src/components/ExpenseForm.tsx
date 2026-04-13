@@ -89,12 +89,12 @@ export default function ExpenseForm() {
 					htmlFor="amount" 
 					className="text-xl"
 				>
-					Cantidad:
+					Precio:
 				</label>
 				<input 
 					type="number" 
 					id="amount"
-					placeholder="Añade la cantidad del gasto: ej. 300"
+					placeholder="Añade el precio del gasto: ej. 300"
 					className="bg-slate-200 p-2"
 					name="amount"
 					onChange={handleChange}
